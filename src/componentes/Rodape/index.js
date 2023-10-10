@@ -1,36 +1,36 @@
-import './Rodape.css'
 
-const Rodape = (props) =>{
-  return(<footer className="footer">
-  <section>
-      <ul className='lista'>
-          <li>
-              <a href="https://github.com/CarlosHenriqueArruda" target="_blank">
-                  <img width="40px" src="./imagens/github2.png" alt="GitHub" />
-              </a>
-          </li>
-          <li>
-              <a href="https://www.linkedin.com/in/carloshenriquech/" target="_blank">
-                  <img width="40px" src="./imagens/linkedin.png" alt="LinkedIn" />
-              </a>
-          </li>
-          <li>
-              <a href="https://www.instagram.com/carlosoliveirach/" target="_blank">
-                  <img width="40px" src="./imagens/ig.png" alt="Instagram" />
-              </a>
-          </li>
-      </ul>
-  </section>
-  <section>
-      <img src="/imagens/logo.png" alt="" />
-  </section>
-  <section>
-      <p>
-          Desenvolvido por Carlos Henrique.
-      </p>
-  </section>
-</footer>
-)
+import './rodape.css'
+
+const Rodape = () => {
+    return (<footer className="footer">
+       <section>
+       <ul>
+            <li>
+                <a href="facebook.com" target="_blank">
+                    <img src="/imagens/facebook.png" alt="" />
+                </a>
+            </li>
+            <li>
+                <a href="twitter.com" target="_blank">
+                    <img src="/imagens/twitter.png" alt="" />
+                </a>
+            </li>
+            <li>
+                <a href="instagram.com" target="_blank">
+                    <img src="/imagens/instagram.png" alt="" />
+                </a>
+            </li>
+        </ul>
+       </section>
+       <section>
+       <img src="/imagens/logo.png" alt="" />
+       </section>
+       <section>
+        <p>
+            Desenvolvido por Alura.
+        </p>
+       </section>
+    </footer>)
 }
 
 export default Rodape
