@@ -1,2 +1,3 @@
+https://organograma-git-master-carlos-henrique-arrudas-projects.vercel.app
 
-https://organograma-git-master-carlos-henrique-arrudas-projects.vercel.app/?_vercel_share=8WSqDx3kUMk6dSIMV8AgNfbtTrlZNCTG
+https://www.linkedin.com/feed/update/urn:li:activity:7134893776552046593/
